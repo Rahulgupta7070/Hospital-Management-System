@@ -18,7 +18,7 @@ public class HospitalManagementSystem {
         try{
             Connection connection= DriverManager.getConnection(url,username,password);
 
-            //object banya
+            //object banya hai
             Patient patient=new Patient(connection,scanner);
             Doctor doctor=new Doctor(connection);
 
